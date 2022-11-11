@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Бештау</title>
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font" type="font/woff2" crossorigin="use-credentials">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer="defer" src="js/swiper.js"></script>
+  <script defer="defer" src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+      <div class="container header__container">
+        <nav class="header__nav nav" title="Главное меню">
+          <ul class="list-reset nav__list">
+            <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+            <li class="nav__item"><a href="#halls" class="nav__link">Залы</a></li>
+            <li class="nav__item"><a href="#gallery" class="nav__link">Фотогалерея</a></li>
+            <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+            <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+            <li class="nav__item"><a href="#footer" class="nav__link">Контакты</a></li>
+          </ul>
+          <div class="header__contacts"><a href="#" class="header__link"><img loading="lazy" src="img/vk.svg"
+                class="image" width="38" height="38" alt="ВК"> </a><a href="#" class="header__link"><img loading="lazy"
+                src="img/tg.svg" class="image" width="38" height="38" alt="ВК"></a></div>
+        </nav><button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger><span
+            class="burger__line"></span></button>
+      </div>
+    </header>
+    <main class="main">
+      <section id="hero" class="hero section">
+        <div class="container hero__container">
+          <picture>
+            <source srcset="img/logo.avif" type="image/avif">
+            <source srcset="img/logo.webp" type="image/webp"><img loading="lazy" src="img/logo.jpg"
+              class="image hero__logo" width="575" height="575" alt="Логотип">
+          </picture>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <div class="container about__container">
+          <picture>
+            <source srcset="img/food-img.avif" type="image/avif">
+            <source srcset="img/food-img.webp" type="image/webp"><img loading="lazy" src="img/food-img.jpg"
+              class="about__image image" width="577" height="562" alt="Блюдо">
+          </picture>
+          <div class="about__content">
+            <p class="about__text">Ресторан «Бештау» — это замечательное место для проведения Ваших торжеств: свадеб,
+              юбилеев, корпоративных мероприятий. Искусные повара ресторана приготовят для вас изысканные блюда
+              европейской, кавказкой, восточной и русской кухни. Роскошный интерьер, шикарная мебель, дорогая ручная
+              роспись на стенах, уютная и доброжелательная атмосфера, достойный сервис — это основные наши преимущества.
+              Закажите торжество в ресторане «Бештау» и мы останемся друзьями на долгие годы!</p><img
+              class="about__decor image" loading="lazy" src="img/about-decor.svg" width="166" height="86"
+              alt="Декорация">
+          </div>
+        </div>
+      </section>
+      <section id="halls" class="halls section">
+        <div class="halls__container">
+          <div class="halls__brown"></div>
+          <div class="container">
+            <ul class="list-reset halls__white">
+              <li class="halls__item halls__item--grey">
+                <div class="halls__name">Зал № 1</div>
+                <picture>
+                  <source srcset="img/food-img.avif" type="image/avif">
+                  <source srcset="img/food-img.webp" type="image/webp"><img loading="lazy" src="img/food-img.jpg"
+                    class="halls__image image" width="320" height="276" alt="Блюдо">
+                </picture>
+                <h3 class="halls__subtitle">80 персон</h3>
+                <p class="halls__text">Обстановка в зале торжественная и элегантная: интерьер банкетного зала исполнен
+                  в бежевых тонах с использованием фресок, идеальный выбор для организации свадеб, юбилеев
+                  и корпоративных мероприятий.</p><img loading="lazy" src="img/halls-decor.svg" class="image" width="90"
+                  height="47" alt="Декорация">
+              </li>
+              <li class="halls__item halls__item--yellow">
+                <div class="halls__name">Зал № 2</div>
+                <picture>
+                  <source srcset="img/food-img.avif" type="image/avif">
+                  <source srcset="img/food-img.webp" type="image/webp"><img loading="lazy" src="img/food-img.jpg"
+                    class="halls__image image" width="320" height="276" alt="Блюдо">
+                </picture>
+                <h3 class="halls__subtitle">100 персон</h3>
+                <p class="halls__text">Обстановка в зале торжественная и элегантная: интерьер банкетного зала исполнен
+                  в бежевых тонах с использованием фресок, идеальный выбор для организации свадеб, юбилеев
+                  и корпоративных мероприятий.</p><img loading="lazy" src="img/halls-decor.svg" class="image" width="90"
+                  height="47" alt="Декорация">
+              </li>
+              <li class="halls__item halls__item--sand">
+                <div class="halls__name">Зал № 3</div>
+                <picture>
+                  <source srcset="img/food-img.avif" type="image/avif">
+                  <source srcset="img/food-img.webp" type="image/webp"><img loading="lazy" src="img/food-img.jpg"
+                    class="halls__image image" width="320" height="276" alt="Блюдо">
+                </picture>
+                <h3 class="halls__subtitle">30 персон</h3>
+                <p class="halls__text">Обстановка в зале торжественная и элегантная: интерьер банкетного зала исполнен
+                  в бежевых тонах с использованием фресок, идеальный выбор для организации свадеб, юбилеев
+                  и корпоративных мероприятий.</p><img loading="lazy" src="img/halls-decor.svg" class="image" width="90"
+                  height="47" alt="Декорация">
+              </li>
+              <li class="halls__item halls__item--dust">
+                <div class="halls__name">Vip</div>
+                <picture>
+                  <source srcset="img/food-img.avif" type="image/avif">
+                  <source srcset="img/food-img.webp" type="image/webp"><img loading="lazy" src="img/food-img.jpg"
+                    class="halls__image image" width="320" height="276" alt="Блюдо">
+                </picture>
+                <h3 class="halls__subtitle">10 персон</h3>
+                <p class="halls__text">Обстановка в зале торжественная и элегантная: интерьер банкетного зала исполнен
+                  в бежевых тонах с использованием фресок, идеальный выбор для организации свадеб, юбилеев
+                  и корпоративных мероприятий.</p><img loading="lazy" src="img/halls-decor.svg" class="image" width="90"
+                  height="47" alt="Декорация">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery section">
+        <div class="container gallery__container">
+          <div class="gallery__top"><img loading="lazy" src="img/decor-left.svg" class="image decor" width="91"
+              height="43" alt="Декоративный элемент">
+            <h2 class="gallery__title">Фотогалерея</h2><img loading="lazy" src="img/decor-right.svg" class="image decor"
+              width="91" height="43" alt="Декоративный элемент">
+          </div>
+          <div class="swiper gallery__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide gallery__slide">
+                <picture>
+                  <source srcset="img/gallery-img-1.avif" type="image/avif">
+                  <source srcset="img/gallery-img-1.webp" type="image/webp"><img loading="lazy"
+                    src="img/gallery-img-1.jpg" class="image" width="1002" height="606" alt="Фото зала">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source srcset="img/gallery-img-1.avif" type="image/avif">
+                  <source srcset="img/gallery-img-1.webp" type="image/webp"><img loading="lazy"
+                    src="img/gallery-img-1.jpg" class="image" width="1002" height="606" alt="Фото зала">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source srcset="img/gallery-img-1.avif" type="image/avif">
+                  <source srcset="img/gallery-img-1.webp" type="image/webp"><img loading="lazy"
+                    src="img/gallery-img-1.jpg" class="image" width="1002" height="606" alt="Фото зала">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="gallery__btns"><button class="gallery__btn btn-reset gallery__btn--prev btn-prev"></button>
+            <button class="gallery__btn btn-reset gallery__btn--next btn-next"></button>
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="menu section">
+        <div class="menu__top"><img loading="lazy" src="img/halls-decor-left.svg" class="image menu__decor decor"
+            width="91" height="43" alt="Декоративный элемент">
+          <h4 class="menu__title">Меню</h4><img loading="lazy" src="img/halls-decor.svg" class="image menu__decor decor"
+            width="91" height="43" alt="Декоративный элемент">
+        </div>
+        <div class="menu__background">
+          <div class="container menu__container">
+            <div class="menu__body">
+              <div class="menu__item-container">
+                <div class="menu__item menu__item--eu">Европейская кухня</div>
+                <div class="menu__item menu__item--caucasus">Кавказкая кухня</div>
+              </div>
+              <div class="menu__item-container">
+                <div class="menu__item menu__item--ru">Русская кухня</div>
+                <div class="menu__item menu__item--east">Восточная кухня</div>
+              </div>
+            </div>
+            <div class="menu__info">
+              <div class="menu__info-item">если у вас есть вопросы или пожелания по кухне?</div>
+              <div class="menu__info-item menu__info-item--yellow">свяжитесь с нами по <a class="menu__link"
+                  href="tel:89001437737">+7 (90) 01-43-77-37</a></div>
+              <div class="menu__info-item menu__info-item--uppercase">Мы найдём решение</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews section">
+        <div class="container reviews__container">
+          <div class="reviews__top"><img loading="lazy" src="img/decor-left.svg" class="image reviews__decor decor"
+              width="91" height="43" alt="Декоративный элемент">
+            <h4 class="reviews__title">Отзывы</h4><img loading="lazy" src="img/decor-right.svg"
+              class="image reviews__decor decor" width="91" height="43" alt="Декоративный элемент">
+          </div>
+          <div class="reviews__content">
+            <div class="swiper reviews__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide reviews__slide">
+                  <picture>
+                    <source srcset="img/people-avatar.avif" type="image/avif">
+                    <source srcset="img/people-avatar.webp" type="image/webp"><img loading="lazy"
+                      src="img/people-avatar.jpg" class="image reviews__avatar" width="406" height="401" alt="Аватарка">
+                  </picture>
+                  <div class="reviews__text">Ресторан «Бештау» — это замечательное место для проведения Ваших торжеств:
+                    свадеб, юбилеев, корпоративных мероприятий. Искусные повара ресторана приготовят для вас изысканные
+                    блюда европейской, кавказкой, восточной и русской кухни. Роскошный интерьер, шикарная мебель,
+                    дорогая ручная роспись на стенах, уютная и доброжелательная атмосфера, достойный сервис — это
+                    основные наши преимущества. Закажите торжество в ресторане «Бештау» и мы останемся друзьями
+                    на долгие годы!</div>
+                </div>
+                <div class="swiper-slide reviews__slide">
+                  <picture>
+                    <source srcset="img/people-avatar.avif" type="image/avif">
+                    <source srcset="img/people-avatar.webp" type="image/webp"><img loading="lazy"
+                      src="img/people-avatar.jpg" class="image reviews__avatar" width="406" height="401" alt="Аватарка">
+                  </picture>
+                  <div class="reviews__text">Ресторан «Бештау» — это замечательное место для проведения Ваших торжеств:
+                    свадеб, юбилеев, корпоративных мероприятий. Искусные повара ресторана приготовят для вас изысканные
+                    блюда европейской, кавказкой, восточной и русской кухни. Роскошный интерьер, шикарная мебель,
+                    дорогая ручная роспись на стенах, уютная и доброжелательная атмосфера, достойный сервис — это
+                    основные наши преимущества. Закажите торжество в ресторане «Бештау» и мы останемся друзьями
+                    на долгие годы!</div>
+                </div>
+                <div class="swiper-slide reviews__slide">
+                  <picture>
+                    <source srcset="img/people-avatar.avif" type="image/avif">
+                    <source srcset="img/people-avatar.webp" type="image/webp"><img loading="lazy"
+                      src="img/people-avatar.jpg" class="image reviews__avatar" width="406" height="401" alt="Аватарка">
+                  </picture>
+                  <div class="reviews__text">Ресторан «Бештау» — это замечательное место для проведения Ваших торжеств:
+                    свадеб, юбилеев, корпоративных мероприятий. Искусные повара ресторана приготовят для вас изысканные
+                    блюда европейской, кавказкой, восточной и русской кухни. Роскошный интерьер, шикарная мебель,
+                    дорогая ручная роспись на стенах, уютная и доброжелательная атмосфера, достойный сервис — это
+                    основные наши преимущества. Закажите торжество в ресторане «Бештау» и мы останемся друзьями
+                    на долгие годы!</div>
+                </div>
+              </div>
+            </div><button class="reviews__btn btn-reset reviews__btn--next btn-next"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer section">
+      <div class="container footer__container">
+        <h4 class="footer__title">Нас легко найти</h4>
+        <h5 class="footer__subtitle">Каширское ш., 80, Москва</h5>
+        <div class="footer__content">
+          <div class="footer__left"><a href="#" class="footer__logo"><img loading="lazy" src="img/footer-logo.svg"
+                class="image" width="427" height="427" alt="Логотип"></a>
+            <div class="footer__phones"><a href="tel:89001437737" class="footer__phone">+7 (90) 01-43-77-37</a> <a
+                href="tel:84951437737" class="footer__phone">+7 495 143-77-37</a></div>
+            <div class="footer__info">
+              <div class="footer__text">мы работаем:</div>
+              <div class="footer__time">Пн-Чт с 09:00 до 00:00 часов</div>
+              <div class="footer__time">Пт-Сб с 09:00 до 02:00 часов</div>
+            </div>
+            <div class="footer__questions">По вопросам сотрудничества и вакансиям пишите на почту: <a
+                href="mailto:rest.beshtau@yandex.ru" class="footer__mail">rest.beshtau@yandex.ru</a></div>
+          </div>
+          <div class="footer__map"></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
