@@ -764,6 +764,21 @@ a {
   text-transform: uppercase
 }
 
+.menu__info-item--yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 576px) {
+  .menu__info-item--yellow {
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 8px;
+  }
+}
+
 .menu__link {
   font-weight: 500;
   font-size: 25px;
